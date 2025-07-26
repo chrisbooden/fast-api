@@ -25,3 +25,12 @@ class Enemy:
     @staticmethod
     def beep():
         print("Beep beep!")
+
+
+
+
+
+
+    
+                 
+
