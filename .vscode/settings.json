@@ -1,5 +1,7 @@
 {
     "python.defaultInterpreterPath": "/home/codespace/.cache/pypoetry/virtualenvs/2-projects-9so-axFQ-py3.12/bin/python",
     "python.venvPath": "/home/codespace/.cache/pypoetry/virtualenvs",
-    "python.languageServer": "Pylance"
+    "python.languageServer": "Pylance",
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": []
 }
