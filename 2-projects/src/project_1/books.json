@@ -1,0 +1,40 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "category": "Fiction",
+      "published_year": 1925
+    },
+    {
+      "id": 2,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "category": "Fiction",
+      "published_year": 1960
+    },
+    {
+      "id": 3,
+      "title": "1984",
+      "author": "George Orwell",
+      "category": "Dystopian",
+      "published_year": 1949
+    },
+    {
+      "id": 4,
+      "title": "Surely You're Joking, Mr. Feynman!",
+      "author": "Richard P. Feynman",
+      "category": "Biography",
+      "published_year": 1985
+    },
+    {
+      "id": 5,
+      "title": "The Feynman Lectures on Physics",
+      "author": "Richard P. Feynman",
+      "category": "Science",
+      "published_year": 1964
+    }
+  ]
+}
+
