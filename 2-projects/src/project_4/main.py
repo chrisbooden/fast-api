@@ -8,7 +8,9 @@ app.include_router(prefix="/todo", tags=["todo"], router=todos.router)
 app.include_router(prefix="/admin", tags=["admin"], router=admin.router)
 app.include_router(prefix="/users", tags=["users"], router=users.router)
 
-
+@app.get("/healthy")
+def health_check():
+    return { "status": "healthy" }
 
 
 
