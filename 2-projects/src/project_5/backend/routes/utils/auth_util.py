@@ -41,7 +41,7 @@ def get_user(token: Annotated[str, Depends(oauth2_bearer)]):
     except JWTError as e:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Could not validate credentials")
 
-def get_token(user_name: str, user_id: int, role: str) -> str:
+def get_token(user_name: str, user_id: int) -> str:
     """
     Returns a JWT for a user claim
 
@@ -56,7 +56,6 @@ def get_token(user_name: str, user_id: int, role: str) -> str:
     encode = {
         "sub": user_name,
         "id": user_id,
-        "role": role,
         "exp": datetime.now(timezone.utc) + timedelta(hours=1)
     }
     return jwt.encode(claims=encode,key=SECRET_KEY,algorithm=ALGORITHM)
